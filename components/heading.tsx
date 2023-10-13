@@ -1,12 +1,13 @@
-import {LucideIcon} from "lucide-react";
-import {cn} from "@/lib/utils";
+import { LucideIcon } from "lucide-react";
+
+import { cn } from "@/lib/utils";
 
 interface HeadingProps {
-    title: string;
-    description: string;
-    icon: LucideIcon;
-    iconColor?: string;
-    bgColor?: string;
+  title: string;
+  description: string;
+  icon: LucideIcon;
+  iconColor?: string;
+  bgColor?: string;
 }
 
 const Heading = (

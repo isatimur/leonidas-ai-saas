@@ -7,7 +7,7 @@ import {cn} from "@/lib/utils";
 import {Code, ImageIcon, LayoutDashboardIcon, MessageSquare, Music, Settings, VideoIcon} from "lucide-react";
 import {usePathname} from "next/navigation";
 import {FreeCounter} from "@/components/free-counter";
-import MobileSidebarProps from "@/components/mobilesidebar";
+import MobileSidebarProps from "@/components/mobile-sidebar";
 
 const routes = [
     {
